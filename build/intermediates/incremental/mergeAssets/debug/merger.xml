@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets" >
+            <file
+                name="audio/backing1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\backing1.ogg" />
+            <file
+                name="audio/bounce1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\bounce1.ogg" />
+            <file
+                name="audio/bounce2.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\bounce2.mp3" />
+            <file
+                name="audio/bounce3.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\bounce3.mp3" />
+            <file
+                name="audio/cable2.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\cable2.mp3" />
+            <file
+                name="audio/crash1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\crash1.ogg" />
+            <file
+                name="audio/crash2.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\crash2.mp3" />
+            <file
+                name="audio/fencehit1.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\fencehit1.mp3" />
+            <file
+                name="audio/fencehit2.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\fencehit2.mp3" />
+            <file
+                name="audio/fencehit3.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\fencehit3.mp3" />
+            <file
+                name="audio/flying1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\flying1.ogg" />
+            <file
+                name="audio/gameover1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\gameover1.ogg" />
+            <file
+                name="audio/hitship1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\hitship1.ogg" />
+            <file
+                name="audio/hitship2.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\hitship2.mp3" />
+            <file
+                name="audio/kaboom1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\kaboom1.ogg" />
+            <file
+                name="audio/laser1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\laser1.ogg" />
+            <file
+                name="audio/laser2.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\laser2.mp3" />
+            <file
+                name="audio/powering1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\powering1.ogg" />
+            <file
+                name="audio/powerup1.mp3"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\powerup1.mp3" />
+            <file
+                name="audio/zap1.ogg"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\audio\zap1.ogg" />
+            <file
+                name="fortress/demo/creator.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\demo\creator.fort" />
+            <file
+                name="fortress/demo/demo.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\demo\demo.fort" />
+            <file
+                name="fortress/test/boundary.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\boundary.fort" />
+            <file
+                name="fortress/test/collider.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\collider.fort" />
+            <file
+                name="fortress/test/cross.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\cross.fort" />
+            <file
+                name="fortress/test/diamond.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\diamond.fort" />
+            <file
+                name="fortress/test/gauntlet.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\gauntlet.fort" />
+            <file
+                name="fortress/test/nullTester.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\nullTester.fort" />
+            <file
+                name="fortress/test/plus.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\plus.fort" />
+            <file
+                name="fortress/test/square.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\square.fort" />
+            <file
+                name="fortress/test/tester.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\tester.fort" />
+            <file
+                name="fortress/test/tunnel.fort"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\fortress\test\tunnel.fort" />
+            <file
+                name="Mobile/ff2-9/creator/arenabutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\arenabutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/barrier_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\barrier_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/bombup_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\bombup_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/buildbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\buildbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/createsplash.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\createsplash.png" />
+            <file
+                name="Mobile/ff2-9/creator/deletebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\deletebutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/delete_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\delete_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/delete_sel.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\delete_sel.png" />
+            <file
+                name="Mobile/ff2-9/creator/emptycell.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\emptycell.png" />
+            <file
+                name="Mobile/ff2-9/creator/enemy_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\enemy_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/exitbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\exitbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/fence_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\fence_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/filebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\filebutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/fileexitbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\fileexitbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/gateway_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\gateway_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/groupsbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\groupsbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/hanger_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\hanger_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/loadbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\loadbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/lock_lock.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\lock_lock.png" />
+            <file
+                name="Mobile/ff2-9/creator/lock_unlock.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\lock_unlock.png" />
+            <file
+                name="Mobile/ff2-9/creator/mine_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\mine_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/nextbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\nextbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/nobutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\nobutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/noplaybutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\noplaybutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/playbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\playbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/player_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\player_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/powerup_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\powerup_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/prevbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\prevbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/procbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\procbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/pushblock_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\pushblock_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/randbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\randbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/savebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\savebutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/scaffold_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\scaffold_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/sendbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\sendbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/switch_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\switch_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/toasterback.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\toasterback.png" />
+            <file
+                name="Mobile/ff2-9/creator/toolsbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\toolsbutton.png" />
+            <file
+                name="Mobile/ff2-9/creator/toolselect.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\toolselect.png" />
+            <file
+                name="Mobile/ff2-9/creator/turret_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\turret_def.png" />
+            <file
+                name="Mobile/ff2-9/creator/windowback.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\windowback.png" />
+            <file
+                name="Mobile/ff2-9/creator/yesbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\creator\yesbutton.png" />
+            <file
+                name="Mobile/ff2-9/game/barrier.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\barrier.png" />
+            <file
+                name="Mobile/ff2-9/game/barrierhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\barrierhit.png" />
+            <file
+                name="Mobile/ff2-9/game/bombcable.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\bombcable.png" />
+            <file
+                name="Mobile/ff2-9/game/bomber.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\bomber.png" />
+            <file
+                name="Mobile/ff2-9/game/bomberhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\bomberhit.png" />
+            <file
+                name="Mobile/ff2-9/game/bombup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\bombup.png" />
+            <file
+                name="Mobile/ff2-9/game/bombupcharge.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\bombupcharge.png" />
+            <file
+                name="Mobile/ff2-9/game/death.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\death.png" />
+            <file
+                name="Mobile/ff2-9/game/enemy2ship.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\enemy2ship.png" />
+            <file
+                name="Mobile/ff2-9/game/enemy2shipbombup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\enemy2shipbombup.png" />
+            <file
+                name="Mobile/ff2-9/game/enemy2shipordered.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\enemy2shipordered.png" />
+            <file
+                name="Mobile/ff2-9/game/enemy2shippowerup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\enemy2shippowerup.png" />
+            <file
+                name="Mobile/ff2-9/game/enemycable.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\enemycable.png" />
+            <file
+                name="Mobile/ff2-9/game/enemylaser.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\enemylaser.png" />
+            <file
+                name="Mobile/ff2-9/game/explosion.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\explosion.png" />
+            <file
+                name="Mobile/ff2-9/game/fence.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\fence.png" />
+            <file
+                name="Mobile/ff2-9/game/fencehit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\fencehit.png" />
+            <file
+                name="Mobile/ff2-9/game/gatewayoff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\gatewayoff.png" />
+            <file
+                name="Mobile/ff2-9/game/gatewayon.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\gatewayon.png" />
+            <file
+                name="Mobile/ff2-9/game/hanger.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\hanger.png" />
+            <file
+                name="Mobile/ff2-9/game/hangerdrone.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\hangerdrone.png" />
+            <file
+                name="Mobile/ff2-9/game/hangerhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\hangerhit.png" />
+            <file
+                name="Mobile/ff2-9/game/mine.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\mine.png" />
+            <file
+                name="Mobile/ff2-9/game/minedebris.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\minedebris.png" />
+            <file
+                name="Mobile/ff2-9/game/minehit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\minehit.png" />
+            <file
+                name="Mobile/ff2-9/game/player2ship.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\player2ship.png" />
+            <file
+                name="Mobile/ff2-9/game/player2shipbombup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\player2shipbombup.png" />
+            <file
+                name="Mobile/ff2-9/game/player2shippowerup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\player2shippowerup.png" />
+            <file
+                name="Mobile/ff2-9/game/playercable.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\playercable.png" />
+            <file
+                name="Mobile/ff2-9/game/playerlaser.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\playerlaser.png" />
+            <file
+                name="Mobile/ff2-9/game/powerup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\powerup.png" />
+            <file
+                name="Mobile/ff2-9/game/powerupcharge.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\powerupcharge.png" />
+            <file
+                name="Mobile/ff2-9/game/pushblock.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\pushblock.png" />
+            <file
+                name="Mobile/ff2-9/game/scaffold.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\scaffold.png" />
+            <file
+                name="Mobile/ff2-9/game/switchoff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\switchoff.png" />
+            <file
+                name="Mobile/ff2-9/game/switchon.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\switchon.png" />
+            <file
+                name="Mobile/ff2-9/game/turret.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\turret.png" />
+            <file
+                name="Mobile/ff2-9/game/turrethit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\game\turrethit.png" />
+            <file
+                name="Mobile/ff2-9/ui/barrierword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\barrierword.png" />
+            <file
+                name="Mobile/ff2-9/ui/barrierwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\barrierwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/bombupword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\bombupword.png" />
+            <file
+                name="Mobile/ff2-9/ui/bombupwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\bombupwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/createbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\createbutton.png" />
+            <file
+                name="Mobile/ff2-9/ui/diffeasybutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\diffeasybutton.png" />
+            <file
+                name="Mobile/ff2-9/ui/diffhardbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\diffhardbutton.png" />
+            <file
+                name="Mobile/ff2-9/ui/diffnormbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\diffnormbutton.png" />
+            <file
+                name="Mobile/ff2-9/ui/enemyfighterword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\enemyfighterword.png" />
+            <file
+                name="Mobile/ff2-9/ui/enemyfighterwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\enemyfighterwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/fenceword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\fenceword.png" />
+            <file
+                name="Mobile/ff2-9/ui/fencewordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\fencewordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/ff2loader.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\ff2loader.png" />
+            <file
+                name="Mobile/ff2-9/ui/ff2logo.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\ff2logo.png" />
+            <file
+                name="Mobile/ff2-9/ui/ff2logohit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\ff2logohit.png" />
+            <file
+                name="Mobile/ff2-9/ui/font/exo-ff.fnt"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\font\exo-ff.fnt" />
+            <file
+                name="Mobile/ff2-9/ui/font/exo-ff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\font\exo-ff.png" />
+            <file
+                name="Mobile/ff2-9/ui/gameover.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\gameover.png" />
+            <file
+                name="Mobile/ff2-9/ui/gatewayword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\gatewayword.png" />
+            <file
+                name="Mobile/ff2-9/ui/gatewaywordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\gatewaywordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/graybacker.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\graybacker.png" />
+            <file
+                name="Mobile/ff2-9/ui/mineword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\mineword.png" />
+            <file
+                name="Mobile/ff2-9/ui/minewordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\minewordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/nextfield.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\nextfield.png" />
+            <file
+                name="Mobile/ff2-9/ui/nocreatebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\nocreatebutton.png" />
+            <file
+                name="Mobile/ff2-9/ui/playerword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\playerword.png" />
+            <file
+                name="Mobile/ff2-9/ui/playerwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\playerwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/powerupword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\powerupword.png" />
+            <file
+                name="Mobile/ff2-9/ui/powerupwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\powerupwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/pushblockword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\pushblockword.png" />
+            <file
+                name="Mobile/ff2-9/ui/pushblockwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\pushblockwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/soundoff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\soundoff.png" />
+            <file
+                name="Mobile/ff2-9/ui/soundon.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\soundon.png" />
+            <file
+                name="Mobile/ff2-9/ui/switchword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\switchword.png" />
+            <file
+                name="Mobile/ff2-9/ui/switchwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\switchwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/turretword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\turretword.png" />
+            <file
+                name="Mobile/ff2-9/ui/turretwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\turretwordhit.png" />
+            <file
+                name="Mobile/ff2-9/ui/userPrefsButton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Mobile\ff2-9\ui\userPrefsButton.png" />
+            <file
+                name="Tablet/ff2-9/creator/barrier_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\barrier_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/bombup_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\bombup_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/createsplash.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\createsplash.png" />
+            <file
+                name="Tablet/ff2-9/creator/deletebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\deletebutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/delete_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\delete_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/delete_sel.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\delete_sel.png" />
+            <file
+                name="Tablet/ff2-9/creator/emptycell.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\emptycell.png" />
+            <file
+                name="Tablet/ff2-9/creator/enemy_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\enemy_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/exitbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\exitbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/fence_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\fence_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/filebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\filebutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/fileexitbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\fileexitbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/gateway_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\gateway_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/loadbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\loadbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/lock_lock.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\lock_lock.png" />
+            <file
+                name="Tablet/ff2-9/creator/lock_unlock.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\lock_unlock.png" />
+            <file
+                name="Tablet/ff2-9/creator/mine_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\mine_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/nextbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\nextbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/nobutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\nobutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/playbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\playbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/player_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\player_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/powerup_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\powerup_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/prevbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\prevbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/pushblock_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\pushblock_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/randbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\randbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/savebutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\savebutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/scaffold_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\scaffold_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/sendbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\sendbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/switch_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\switch_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/toasterback.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\toasterback.png" />
+            <file
+                name="Tablet/ff2-9/creator/toolsbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\toolsbutton.png" />
+            <file
+                name="Tablet/ff2-9/creator/toolselect.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\toolselect.png" />
+            <file
+                name="Tablet/ff2-9/creator/turnstileX_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\turnstileX_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/turnstileY_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\turnstileY_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/turnstile_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\turnstile_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/turret_def.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\turret_def.png" />
+            <file
+                name="Tablet/ff2-9/creator/windowback.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\windowback.png" />
+            <file
+                name="Tablet/ff2-9/creator/yesbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\creator\yesbutton.png" />
+            <file
+                name="Tablet/ff2-9/game/barrier.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\barrier.png" />
+            <file
+                name="Tablet/ff2-9/game/barrierhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\barrierhit.png" />
+            <file
+                name="Tablet/ff2-9/game/bombcable.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\bombcable.png" />
+            <file
+                name="Tablet/ff2-9/game/bombup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\bombup.png" />
+            <file
+                name="Tablet/ff2-9/game/bombupcharge.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\bombupcharge.png" />
+            <file
+                name="Tablet/ff2-9/game/death.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\death.png" />
+            <file
+                name="Tablet/ff2-9/game/enemy2ship.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\enemy2ship.png" />
+            <file
+                name="Tablet/ff2-9/game/enemy2shipbombup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\enemy2shipbombup.png" />
+            <file
+                name="Tablet/ff2-9/game/enemy2shippowerup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\enemy2shippowerup.png" />
+            <file
+                name="Tablet/ff2-9/game/enemycable.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\enemycable.png" />
+            <file
+                name="Tablet/ff2-9/game/enemylaser.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\enemylaser.png" />
+            <file
+                name="Tablet/ff2-9/game/explosion.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\explosion.png" />
+            <file
+                name="Tablet/ff2-9/game/fence.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\fence.png" />
+            <file
+                name="Tablet/ff2-9/game/fencehit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\fencehit.png" />
+            <file
+                name="Tablet/ff2-9/game/gatewayoff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\gatewayoff.png" />
+            <file
+                name="Tablet/ff2-9/game/gatewayon.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\gatewayon.png" />
+            <file
+                name="Tablet/ff2-9/game/mine.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\mine.png" />
+            <file
+                name="Tablet/ff2-9/game/minedebris.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\minedebris.png" />
+            <file
+                name="Tablet/ff2-9/game/minehit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\minehit.png" />
+            <file
+                name="Tablet/ff2-9/game/player2ship.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\player2ship.png" />
+            <file
+                name="Tablet/ff2-9/game/player2shipbombup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\player2shipbombup.png" />
+            <file
+                name="Tablet/ff2-9/game/player2shippowerup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\player2shippowerup.png" />
+            <file
+                name="Tablet/ff2-9/game/playercable.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\playercable.png" />
+            <file
+                name="Tablet/ff2-9/game/playerlaser.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\playerlaser.png" />
+            <file
+                name="Tablet/ff2-9/game/powerup.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\powerup.png" />
+            <file
+                name="Tablet/ff2-9/game/powerupcharge.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\powerupcharge.png" />
+            <file
+                name="Tablet/ff2-9/game/pushblock.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\pushblock.png" />
+            <file
+                name="Tablet/ff2-9/game/scaffold.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\scaffold.png" />
+            <file
+                name="Tablet/ff2-9/game/switchoff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\switchoff.png" />
+            <file
+                name="Tablet/ff2-9/game/switchon.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\switchon.png" />
+            <file
+                name="Tablet/ff2-9/game/turnstile.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turnstile.png" />
+            <file
+                name="Tablet/ff2-9/game/turnstilegate.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turnstilegate.png" />
+            <file
+                name="Tablet/ff2-9/game/turnstilepivot.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turnstilepivot.png" />
+            <file
+                name="Tablet/ff2-9/game/turnstileYgate.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turnstileYgate.png" />
+            <file
+                name="Tablet/ff2-9/game/turnstileYpivot.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turnstileYpivot.png" />
+            <file
+                name="Tablet/ff2-9/game/turret.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turret.png" />
+            <file
+                name="Tablet/ff2-9/game/turrethit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\game\turrethit.png" />
+            <file
+                name="Tablet/ff2-9/ui/barrierword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\barrierword.png" />
+            <file
+                name="Tablet/ff2-9/ui/barrierwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\barrierwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/bombupword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\bombupword.png" />
+            <file
+                name="Tablet/ff2-9/ui/bombupwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\bombupwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/createbutton.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\createbutton.png" />
+            <file
+                name="Tablet/ff2-9/ui/enemyfighterword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\enemyfighterword.png" />
+            <file
+                name="Tablet/ff2-9/ui/enemyfighterwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\enemyfighterwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/fenceword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\fenceword.png" />
+            <file
+                name="Tablet/ff2-9/ui/fencewordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\fencewordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/ff2loader.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\ff2loader.png" />
+            <file
+                name="Tablet/ff2-9/ui/ff2logo.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\ff2logo.png" />
+            <file
+                name="Tablet/ff2-9/ui/ff2logohit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\ff2logohit.png" />
+            <file
+                name="Tablet/ff2-9/ui/font/exo-ff.fnt"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\font\exo-ff.fnt" />
+            <file
+                name="Tablet/ff2-9/ui/font/exo-ff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\font\exo-ff.png" />
+            <file
+                name="Tablet/ff2-9/ui/gameover.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\gameover.png" />
+            <file
+                name="Tablet/ff2-9/ui/gatewayword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\gatewayword.png" />
+            <file
+                name="Tablet/ff2-9/ui/gatewaywordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\gatewaywordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/graybacker.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\graybacker.png" />
+            <file
+                name="Tablet/ff2-9/ui/mineword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\mineword.png" />
+            <file
+                name="Tablet/ff2-9/ui/minewordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\minewordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/nextfield.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\nextfield.png" />
+            <file
+                name="Tablet/ff2-9/ui/playerword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\playerword.png" />
+            <file
+                name="Tablet/ff2-9/ui/playerwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\playerwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/powerupword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\powerupword.png" />
+            <file
+                name="Tablet/ff2-9/ui/powerupwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\powerupwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/pushblockword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\pushblockword.png" />
+            <file
+                name="Tablet/ff2-9/ui/pushblockwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\pushblockwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/soundoff.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\soundoff.png" />
+            <file
+                name="Tablet/ff2-9/ui/soundon.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\soundon.png" />
+            <file
+                name="Tablet/ff2-9/ui/switchword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\switchword.png" />
+            <file
+                name="Tablet/ff2-9/ui/switchwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\switchwordhit.png" />
+            <file
+                name="Tablet/ff2-9/ui/turretword.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\turretword.png" />
+            <file
+                name="Tablet/ff2-9/ui/turretwordhit.png"
+                path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\assets\Tablet\ff2-9\ui\turretwordhit.png" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="F:\Development\ANDROID\FF-libgdx\flick_fighter_2-android\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

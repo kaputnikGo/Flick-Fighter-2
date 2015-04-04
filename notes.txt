@@ -1,0 +1,457 @@
+Notes for the libGDX port of flick fighter
+
+FLICK FIGHTER 2 - ff2-8
+
+- started on 30.JAN.2014
+
+/*********************************************************************/
+
+NOTES:
+
+- handle touches return true or false ...
+
+- back button destroys app state
+- home button pauses app state
+
+- adjust FPS to have green as > 45
+- libGDX has its own particleEmitter class...
+
+- Motorola MB525 gets straight 60fps
+- Sony Arc gets 45 - 54 !
+- ZTE tab get 60-64fps ! (drops to 30-40 when lots of lasers etc)
+- co-ords system is a pain - XY 0,0 at topleft
+
+/*********************************************************************/
+
+DONE:
+- reduce function calls between FFScreen and FFModel
+- refine & make proper collisionCheck() - use Rectangle.overlaps(Rectangle) NOT contains
+- multiple bullets can be fired
+- fieldManager class to load fences, etc
+- fortress file reader working correctly
+- proper super() for barrier and fence, collision now works
+- explosion emitter implemented, renamed ParticleEmitter
+- collision for fences and turrets
+- fenceDeath explosion offset to centre of fence
+- swapTextures enabled for different fence state
+- removed fighters array from FFModel, using testFighter object only
+- gateway implemented to change field
+- powerup has emitter
+- AssetManager implemented (not good onResume for textures yet) - renamed loadManager to avoid libgdx class conflict
+- player bullet much faster and further now (if/else in bullet for max/min velocity)
+- destroy methods for assets and model needed to proper appstate resume etc
+- fence class has damage value for collisions and/or transference of energy via powerup
+- switch class implemented
+- jumperCable class and switch activate implemented
+- FlickFactor used for increasing flick movement
+- powerupCarry method to indicate player has charge
+- packages sorted
+- spritecache for barrier and scaffold textures
+- scaffolds added to existing levels
+- player life and hitpoints damage
+- move gateway away from screen edge for ease of flick to.
+- barrier is now destructable at 100 hitpoints
+- bullets and cables fix for velocity = 0 killing it too soon (using.len2() not isZero(float) as method not available in this libgdx release)
+- added deltaTime to all obstacles, can use for animated swap texture like gateway
+- added returns to collisions to try speed things up
+- Start screen added
+- simple AI for startscreen added
+- new abstract class Obstacle (inherit by fence, switch, etc)
+- soundManager class, call from FFModel only to use global soundVolume
+- startScreen functions improved
+- add enemyGeneral, enemyFighter, enemyAI
+- new startmanager class to free up model and screen from start screen clutter
+- add fighter graphic for powerup
+- reorganised FFScreen to use new FFModel.drawGameLoop() method to reduce calls between the two
+- removed bottom line of scaffolds to stop stuck error
+- collisionCheck after movements
+- deathEmitter for fighters
+- player death gamestate pause then reload
+- enemyFighter in all levels, patrol path, strategy AI implemented
+- respawn powerup function, one powerup per level
+- gameover/nextfield graphic
+- turrets and control moved to enemyGeneral
+- new FFField class to handle all field functions and arrays
+- gamestate improvements
+- enemyAI deactivate switch added
+- game launcher icon (not the best)
+- menuButton class in gui package
+- buffer to edgeCheck y value to account for menu area
+- sound on/off button added - boolean added to stop playback 
+- moved touchDetector on to createCache function in FFScreen to only allow touches when game is ready to receive.
+- bounceFighter simplified, using theta angle of impact and has FFScreen boolean to stop receiving touch deltaXY
+- removed pan form flick methods, using fling() instead- almost a proper flick gesture :)
+- added cable bounce for barrier and explode for others
+- improved gateway travel graphic, a bit
+- field to get and load fortress filenames as array
+- separated wordblock class from obstacles
+- refactored fortresses and obstacle id to use char instead of int
+- moved demo.txt and creator.txt fortress files to ff2-9 theme folder to avoid problems
+- creatorCell class for use with new creator function
+- FFtoast class for creator file saves
+- override gestureDetector to allow adjusting parameters
+- subfolders in theme assets for different uses of graphics (ui, game, creator)
+- moved creator exit button to FFScreen to help with gamestate and touch enables
+- gameHeight final at 854, gameWidth final at 480
+- refine handle touch events, moved to FFModel for sorting out
+- new FFEngine to take logic from FFModel, model is now just a model...
+- moved touchArea rect to FFScreen
+- refactor screen size for tablet devices etc
+- made fps for particle emitter check a variable passed at emitter creation
+- added ScreenUtils screen refactoring functions
+- multiple enemyFighters enabled, with own patrol path axis and AI
+- add bulletDamage variable to bullet creation from fighter/turret for diff in enemy and player as well as weapon upgrade
+- added Mine obs class
+- refactor enemyAI to FighterAI, added new ail(library) package
+- gamestate finally fixed and finalised! (hopefully)
+- unique cable ID nums to make easier sorting for switch on off
+- fortress file extension changed to .fort
+- loadManager allowed_cell_chars final string for check to only load useable chars
+- separate graphics parts of LoadManager into new GraphicsManager class
+- LoadManager is now devoted to file loads and saves
+- new mineDebris to act as bullet at mine explosion to damage anything around
+- added defcon variable to enemygeneral to create better switch to offensive
+- moved graphicsManager to GUI package
+- turretAI for turrets
+- enemyGeneral has defcon for strategy use
+- rename enemyFighter as drone
+- rename enemyGeneral as fortressGeneral, and enemy as general
+- rename fighterAI to droneAI as general needs a fighterAI if player chooses to control fort
+- rename player_fighter to private_fighter to separate the word player from the fighter
+- NO MULTIPLAYER OR PLAYER AS FORTRESS IN THIS RELEASE OR LEVEL OF FORTRESSES
+- rename act package to ent(ities) to remove confusion if using scene2d/actor classes
+- Reports class for sending status messages to user
+- FFToast separated into FFSelector, FFStatus classes
+- exoSmlFont lineHeight changed to 32 (cellSize);
+- static int for MOBILE or TABLET determination and screen size factoring
+- new ff2.ctr package (creator specific)
+- menubutton id for texture loads
+- new FFSplash to take of that stuff
+- new FFToolbar to help FFCreator, improvements overall, MINE added
+- removed essential cells form toolbar (player, gateway, powerup, switch) - these must be present
+- delete file function in creator/loader added
+- Reports class now static for list access
+- creator positions and sizes propered with vars from FFScreen
+- default fort name save plus timestamp
+- FFStatus simplified creation
+- removed old fort extension of ".txt" from LoadManager checks
+- verifyFortressFileExtension.equals(fort) added
+- new TurnstileX, TurnstileY obstacle classes
+- removed obstacle extends sprite - replace with including a sprite within obstacle class (for turnstile rotation)
+- creator field lock now just disables drag, can still place cells down
+- creator has a tool selected icon in the menubar
+- new Pushblock obstacle class - push by colliding with fighter
+- renamed package obj to package obs
+- further refinements to Collision, move some functions to Model
+- moved soundactive and volume to SoundManager, public triggers from specific classes (ie bullet asks for bullet sound)
+- fortressGeneral now has powerup notification, drones have textures to match
+- new Bombup class for making super cable/bullet/mine hybrid (shoots a missile that explodes at impact)
+- new IdManager class for control of cells, celltypes and their vars and ids.
+- new abstract Weapon class to super cables, bullets and mines
+- remove obstacle id char from obstacles ads instanceof takes care of all that!
+- wordblocks back in the demo fort :)
+- changed cable to be a POWER_CABLE or a MISSILE_BOMB, no diff in sides shooting
+- creator loader finally reading multiple pages of fortress files
+
+- as of 22 APR 2014 have approx 10,702 lines of code
+
+- new package lev for levels
+- new Fortress class to free up Field for multiple screens of forts for a single level
+- new Generator class for creating random fortresses and levels
+- camera.unproject in FFScreen and FFCreator touch handle functions to get screen co-ords to game-co-ords
+	camera.unproject(touchVector.set(touchX, touchY, 0));
+	
+- adding error reports and other function improvements to ScreenUtils for refactoring screen sizes
+- currently loading and using 105 textures
+- set up folder locations and GraphicsManager use for assets/Mobile and assets/Tablet
+- Tablet assets resized, fonts changed to single font name loaded from asset folder with correct size
+- IdManager cellValidIdCheck() method using cellList for checking valid id char in fort files
+- new GeneratorUtils class to provide functions for Generator logic
+- new Scanned class for AI to scan for objects, id and position info only
+- new PathFinder static class to contain all the path functions - simple AI get nearest EMPTY cell
+- fighter/drone bounceCounter >= 10 fighter.alive = false - FFModel.droneDestruct - kablammo 
+- FFConfirm made button position names generic (1,2,3)
+- FFConfirm pop up for build a generator fortress type
+- updated playerShip graphic to stand out more (only in Mobile)
+- added Play button to creator main menu (greyed out - full)
+- toggled create button to off after 10 secs of GAME_RUNNING 
+- sound button state carries over GAME -> CREATOR -> GAME
+- remove powerupEmitter invoke from Fighter class for when it carries powerup
+- make all particleEmitters use the one instance of particleEmitter, each particle responsible for its texture
+- ability to play build auto create forts without saving (uses autosave file)
+- Creator wide processResult var for results of file functions used in status for error handling
+- creator catch for filename too long, reload the save file dialog after telling user name too long
+- moved *Util classes to their respective packages
+- new CreatorUtils class to help Creator with processing 
+- made missileBomb have 40 damage (hitpoints of fighters and turrets)
+- moved turret and drone positional data and finding functions to PathFinder
+- renamed Scanned to ScanCell for better sense
+- renamed DroneAI to Pilot and renamed TurretAI to Gunner classes
+- renamed PathFinder to Navigator in prep for A* pathfinding 
+- new package ff2.nav for pathfinding and navigating
+- new PathFinder class using AStar algorithm. can be used to set adhoc patrol paths
+- enemyShipOrdered texture to indicate drone is following orders
+- new NavigatorUtils class to take most of the logic for nav stuff
+
+- 5/JUN first time running DDMS and HPROF
+
+- convert SoundManager to static class (do same for GraphicsManager?)
+- implementing ail.gunner nullTarget(-1, -1) to indicate has no target, instead of creating new Vector2 each shoot
+- renamed Flickmanager to CollisionUtils as it better suits what the class does
+- rewriting Gunner logic to align with better Pilot functions, try not shoot drones...
+- loaded boolean added to GraphicsManager to prevent GL out of memory errors
+- demoAI and demoManager clean up and update to latest AI class funcitons
+- generatorUtils find and replace select cell numbers over max (drone, turret, mines, bombups)
+- removing ill-defined turnstile from game - TBC Fortress can handle any fort files with turnstile chars in them
+- added new obstacle class Hanger, to spawn drones etc
+- added build hanger group in Generator.
+- new SquadronLeader class to control the Hanger
+- use peek() for adding same object to multiple Array<>()
+- using nullTarget and nullScanCell instead of null in returning objects
+- navigator/pathfinder scanning to full or basic mehods in attempt to speed up and free resources
+- finally removed BLANK cell id from char list
+- idManager holds all directional ints for NORTH, NE, SOUTH, etc
+- Vector2.clear() proving to be unreliable...
+- changed way Navigator accesses array of obstacles, now direct access to Fortress array
+- pilot and (AiUtils new class) improvements - finally they launch properly, bounce/stuck resolve in fun way
+- pilots now handle gateway activation independantly (they do cluster at powerup though...)
+- changed General to have a defcon that matches AI strategy value, general updates overall state, pilot responds accordingly
+- general has MaxNumberDrones var
+- PathFinder ranged waypoints scan now added for pilotAI
+- new FFSettings class to handle difficulty, saving to prefs file etc
+- debug to log now in settings
+- Navigator can form patrol towards chosen direction of nominated vector (working?)
+- change Log.d to boolean switchable Log.i for future logging of user errors and prep for release
+- added hangerGroup creation to all build types
+- changed switch texture to fit with overall style
+- added check for Navigator.pathfinderScan for target.dst(source) < target_range_min
+- user set difficulty added to main screen, persistent with creator fort loads
+- tweaks to difficulty values
+- user created forts now can load next field from user created forts list
+- adjusted bullet offset for startFlight, just outside of entity doing the shooting
+- fix gamestate after user calls difficutly settings pop up and returns to game
+- clean up of SoundManager
+- added splash screen audio
+- better sounds for (most) triggers.
+- added OSD button in Menu for display of fps, build and difficulty
+- added hanger to demo.fort
+- rem'd tablet graphic asset loading for getting app to store
+- added camera.unproject to fling function
+
+
+/*********************************************************************/
+
+TODO:  
+
+NOTE::::  GC still running approx every minute - frees 1500-1700k (50% of test xperia)
+
+-- running on s4 notes:
+	1. it seems to stretch the screen to fit fine... looks tiny bit jagged, but works
+	2.
+	3.
+
+--CRASH-HANG PathFinder line 403  cell = cell.parent;
+		added cell.parent != cell to try bust out of loop if this is actual cause
+		this looks like caused by drone being next to or rounded cell position to the powerup
+		so targetCell and sourceCell may be the same cell....fixed with adding check target_range_min before scanning
+
+- sort out Tablet graphics - finally.
+	
+- sound fx for hanger spawn drone?
+			
+			
+- hanger build adds it to the first two empty edge groups (always top left corner when using default settings)
+- add a hanger to the demo.fort to show its use?
+- GeneratorUtils.getIslandHangerGroup(group)
+
+- improve Fortress build generators
+
+OIOI:: 
+	turret bullets hit drones?
+	drone bullets hit turrets?
+
+
+- SCREEN SIZE NOTES - width and height, some are hard coded for 854 x 480....
+	tablet size graphics asset folder for double sized textures (cellSize == 64)
+	fix the apsect ratio to 16:9 ??
+	
+	qHD (quarter HD) 960x540 (16:9) - Samsung S4mini (same as PSPVita)
+	versus
+	Full WVGA 854x480 (16:9) - Sony Arc, Motorola Defy
+	versus 
+	plain WVGA 800x480 (5:3) - ZTE MyTab
+	versus
+	WXGA 1280x800 (16:10) - Galaxy Tab 10.1, Nexus 7
+		reports 800x1232(dd: 1.0) and factors to 768x1366(ar: 1.7)
+		
+		
+	Android 3.x MAY/CAN reserve bottom 48 px for onscreen menu buttons (home, back, etc)
+	so display is either 800 x 1232 or 1280 x 752
+	
+	- background graphic for levels(make it part of the cache if its dependant on fortress locations...)
+	make it a lighter colour heading towards white?
+
+/*********************************************************************/
+
+FUTURE RELEASE:
+
+-- libGDX updated to 1.2.0 , update this one to match?
+		com.badlogic.gdx.Version..?
+
+- collision checks to be based upon raytracing along flick paths etc - FFPrivate.flicking()
+
+- a way of helping pathFinder is to judge how cluttered a fort is as to whether it needs a full scan 
+		or can risk a longer target_range_min, ie can go further with just a flightpath of source and target and not hit obs
+
+- new pathfinder seems to work... but is inconsistent and sometimes way off but always gets to target
+	--> help pilot go around tricky corners in flightPath.
+	- STILL this : drones can herd into area and get stuck
+		clustering at powerup still a big problem
+		multiple drones getting in way of gateway responding at powerup
+		
+
+- update or create new project ready for release that uses GRADLE
+
+
+- desktop fortress creator...
+
+
+- bombup/missile to spawn more missiles at mineExplode instead of mine debris
+
+
+-	new drone sub class of Bomber?
+	bomber fires a MISSILE not a MISSILE_BOMB, diff is it just a big bullet, does not explode into debris
+	
+-	new obs class of Hanger to spawn drone or bomber, build() in a hanger group
+
+
+-	a fortress can refer to specific fortress like structure, can have others such as Tunnel, Path, etc
+	that are different structures that make up a given level. Fortress is final end where can goto next level
+	ie instead of a group being the tunnel, a whole fort is generally a tunnel shape... fort can then be linked to
+	other forts for a larger game level
+	FFField->Fortress(s): field has array of forts and their relative position to each other so player can go between them
+
+
+--	make FFLoader better?
+		verifyFortressFileContents needs to be robust and better, getting better... cellCharIdCheck()	
+		creator will need pause/resume stuff in case of phone calls etc	
+		- different char sets reading the ALLOWED_CHARS will be same???	
+		
+
+- File browsing for saves and loads via bluetooth etc:
+		to send and other non-ff2 things, need to get intents activities etc into FFGame via MainActivity of ff2
+		external SD card saves, 
+		folders etc. need a file browser to get to ext/Bluetooth, or ext/downloads etc
+		switch location for file loads
+		Gdx.files.external("mycopy.txt").moveTo(Gdx.files.local("mylocalcopy.txt"));
+		will need: <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+		need a new class for fileBrowsing storage
+
+- smarter AI
+	- add DemoAI ability to shoot back at what shot at it, ie a turret shoots it while normally going for drones
+	- player shooting up one area, fighters can be deployed to investigate
+
+	
+- improve collision methods
+- collide methods to not do so much seeking for objects...
+
+- other weapons/tools
+
+- improve gateway transition and graphic - need a sound effect for three seconds or trigger * 3
+	- powerup can be graphic of container that has blue power in it, player/enemy can take the power,
+		container is empty and slowly recharges over deltaTime
+		switch looks like it takes the power charge and toggles from it.
+		
+		
+		
+-- resources mining from special obs that destroy into dust that fighter flies over to gather
+	can give drones something to do and provide a race mechanic for player
+	resources are then used for building new drones in hanger, and player getting powerups?
+	
+
+- pilot AI audio files as radio chatter "patrol scan... patrol set...", etc, as per Log.d statements!
+
+
+- log debug button (screen state size density etc) info to log file??
+		log.d (debug) get stripped at compile for production, error, warning and info are kept
+		log.e, log.w and log.i are kept at release level
+		can write to file - if you must
+		
+
+- TURNSTILE -- delay releasing to demo and test forts
+	- adding turnstileX, turnstileY ( q, j ) to obstacles class 2 * cellSize for width...
+	can only flip gate part on x or y axis
+	
+	not really a turnstile anymore, more a toggle
+	has working now ;)
+	need an orientation setting too (N, S, E, W facing)
+	
+	when gate opens out it should bounce any collided player, fighter, drone
+	enemyGeneral should have a defcon for gates open that make one of units shoot it closed...
+		
+		
+		
+- object toString method :-
+	 return "box[" + this.minX + ", " + this.minY + ", " + this.minZ + " -> " + this.maxX + ", " + this.maxY + ", " + this.maxZ + "]";
+		
+		to help is saving stuff to file when app close or suspend etc, positions, health etc
+		obstacle toString(id: , position: XY , etc)
+		
+
+/*********************************************************************/
+
+OPTIMISATION NOTES FOR ANDROID:
+- use int instead of floats for as much as possible (save memory allocation)
+	even use double in pref to float.
+	 
+- avoid virtual method calls, instead access fields directly: 
+		ie. not int i = fighter.getPosition()
+		but rather int i = fighter.position
+		
+- change variables to static
+
+- code simplify . all the if/else statements, the buttons! in creator, others?
+
+- stringA == stringB SHOULD BE - stringA.equals(stringB);
+
+- https://github.com/libgdx/libgdx/wiki/Back-and-menu-key-catching
+
+
+//TODO- PREFERENCES SETTINGS
+
+	// all this should be received by these methods when called
+	public static boolean soundEnabled = true;
+	// example list of highscores
+	public final static int[] highscores = new int[] {100, 80, 50, 30, 10};
+	// this file needs to be in our own folder, not the root of external card
+	// check has external and permissions too
+	public final static String file = ".FF2settings";
+	
+	public static void loadSettings () {	
+		try {
+			FileHandle filehandle = Gdx.files.external(file);
+
+			String[] strings = filehandle.readString().split("\n");
+
+			soundEnabled = Boolean.parseBoolean(strings[0]);
+			for (int i = 0; i < 5; i++) {
+				highscores[i] = Integer.parseInt(strings[i + 1]);
+			}
+		} catch (Throwable e) {
+			// :( It's ok we have defaults
+			// do we?
+		}
+	}
+
+	public static void saveSettings () {
+		try {
+			FileHandle filehandle = Gdx.files.external(file);
+
+			filehandle.writeString(Boolean.toString(soundEnabled) + "\n", false);
+			for (int i = 0; i < 5; i++) {
+				filehandle.writeString(Integer.toString(highscores[i]) + "\n", true);
+			}
+		} catch (Throwable e) {
+			// something...	
+		}
+	}

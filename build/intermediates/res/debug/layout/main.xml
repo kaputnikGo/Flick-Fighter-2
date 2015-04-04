@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+</LinearLayout><!-- From: file:/F:/Development/ANDROID/FF-libgdx/flick_fighter_2-android/res/layout/main.xml -->
